@@ -1,3 +1,5 @@
 #!/bin/bash 
 
-echo "1234565"
+echo "Ramesh:hello suresh"
+echo "Sureesh:hello ramesh"
+
