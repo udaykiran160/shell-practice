@@ -7,4 +7,4 @@ echo $sum
 
 array=("uday" "kiran" "naidu")
 
-echo "All names ${Name[@]}"
+echo "All names ${array[@]}"
