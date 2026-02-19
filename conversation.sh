@@ -1,4 +1,4 @@
 #!/bin/bash 
 
-echo "Ramesh:hello suresh"
-echo "Sureesh:hello ramesh"
+echo "uday:hello suresh"
+echo "Sureesh:hello uday"
