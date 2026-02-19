@@ -8,3 +8,5 @@ echo $sum
 array=("uday" "kiran" "naidu")
 
 echo "All names ${array[@]}"
+
+echo "First name : ${array[0]}"
