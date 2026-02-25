@@ -28,6 +28,7 @@ if [ $? -ne 0 ]; then
     validate $? mysql
 else
     echo -e" $Y already installed $W"
+fi
 
 dnf list installed nginx
 
