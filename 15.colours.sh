@@ -13,10 +13,10 @@ fi
 
 validate (){ # functions receive inputs through args just like shell script args
     if [ $1 -ne 0 ]; then
-        echo "Installing ... $R installation failure $W"
+        echo -e "Installing ... $R installation failure $W"
         exit 1
     else 
-        echo " Installing ...$G installation success $W"
+        echo -e" Installing ...$G installation success $W"
     fi
 
 }
@@ -27,7 +27,7 @@ if [ $? -ne 0 ]; then
     dnf install mysql -y
     validate $? mysql
 else
-    echo " $Y already installed $W"
+    echo -e" $Y already installed $W"
 
 dnf list installed nginx
 
@@ -36,5 +36,5 @@ if [ $? -ne 0 ]; then
     dnf install nginx -y
     validate $? nginx
 else
-    echo " $Y already installed $W"
+    echo -e " $Y already installed $W"
 fi
