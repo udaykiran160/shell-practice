@@ -37,4 +37,4 @@ if [ $? -ne 0 ]; then
     validate $? nginx
 else
     echo " $Y already installed $W"
-
+fi
