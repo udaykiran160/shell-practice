@@ -37,5 +37,5 @@ if [ $? -ne 0 ]; then
     dnf install nginx -y
     validate $? nginx
 else
-    echo -e " $Y already installed $W"
+    echo -e "$Y already installed $W"
 fi
