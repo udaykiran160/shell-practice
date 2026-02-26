@@ -38,7 +38,7 @@ do
         dnf install $package -y &>>$LOG_FILE
         validate $? $package
     else
-        echo "$package is $Y already installed $N "
+        echo -e "$package is $Y already installed $N "
     fi
 
 done
